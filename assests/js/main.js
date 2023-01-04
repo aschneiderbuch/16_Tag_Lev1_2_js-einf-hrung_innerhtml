@@ -20,3 +20,6 @@ function myFunction() {
     letElement.innerHTML = "W3Schools"
     letElement.href = "http://www.w3schools.com"
 }
+
+
+/* ***************** Ende */
