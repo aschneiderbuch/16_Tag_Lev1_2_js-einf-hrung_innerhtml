@@ -14,3 +14,9 @@ let letHtmlMyP = document.getElementById("myP").innerHTML
 console.log(letHtmlMyP)
 
 document.getElementById("myP").innerHTML += " _____     test     " + letHtmlMyP
+
+function myFunction() {
+    let letElement = document.getElementById("idLink")
+    letElement.innerHTML = "W3Schools"
+    letElement.href = "http://www.w3schools.com"
+}
