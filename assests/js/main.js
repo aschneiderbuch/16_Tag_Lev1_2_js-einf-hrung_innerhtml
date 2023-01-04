@@ -8,3 +8,9 @@ console.log(letContainer)
 
 let letDocumentWrite = document.write("end of the element")
 console.log(letDocumentWrite)
+
+
+let letHtmlMyP = document.getElementById("myP").innerHTML
+console.log(letHtmlMyP)
+
+document.getElementById("myP").innerHTML += " _____     test     " + letHtmlMyP
